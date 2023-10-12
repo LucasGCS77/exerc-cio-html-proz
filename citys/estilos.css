@@ -1,0 +1,80 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: goldenrod;
+}
+
+
+body::before {
+    content: "";
+    background-image: url(../citys/europe_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.;
+}
+
+header::before {
+    content: "";
+    background-image: url(../citys/paris_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.;
+}
+
+logo::before {
+    justify-content: end;
+}
+
+.cabecalho {
+    background-color: transparent;
+    justify-content: center;
+       
+}
+
+.divlogo {
+    text-align: center;
+      
+}
+
+.divlogo .logo {
+    text-align: justify;
+
+}
+
+.navheader {
+    background-color: transparent;
+    
+}
+
+.listademenu {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+   
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
+ 
+.logo {    
+    width: 10%;
+    height: 10%;
+    border-radius: 150%;
+    border: 10px solid goldenrod;
+        
+}
+    
+    
+
+
+
